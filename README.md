@@ -1,4 +1,4 @@
-django-gevent-chat
+django-gevent-sample
 ==================
 
-Simple django chat based on gevent
+Simple django socketio application based on gevent
