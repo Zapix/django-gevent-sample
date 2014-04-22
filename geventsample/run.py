@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from gevent import monkey
 
@@ -16,7 +17,7 @@ application = django.core.handlers.wsgi.WSGIHandler()
 
 sys.path.insert(0, settings.BASE_DIR)
 
-PORT = 8586
+PORT = 8000
 
 if __name__ == '__main__':
     print 'Listening *:%s' % PORT
