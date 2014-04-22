@@ -36,6 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'websocketsample',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -47,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'samplechat.urls'
+ROOT_URLCONF = 'geventsample.urls'
 
-WSGI_APPLICATION = 'samplechat.wsgi.application'
+WSGI_APPLICATION = 'geventsample.wsgi.application'
 
 
 # Database
@@ -80,3 +82,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+AGENT_TO_DJANGO_PORT = 5900

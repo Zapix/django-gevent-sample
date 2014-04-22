@@ -4,3 +4,4 @@ Vagrantfile
 .vagrant/*
 local_settings.py
 *.pyc
+*.sqlite3
