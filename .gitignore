@@ -1,0 +1,4 @@
+.idea/*
+bootstrap.sh
+Vagrantfile
+.vagrant/*

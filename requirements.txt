@@ -1,0 +1,9 @@
+Django==1.6.3
+argparse==1.2.1
+gevent==1.0
+gevent-socketio==0.3.6
+gevent-websocket==0.9.3
+gevent-zeromq==0.2.5
+greenlet==0.4.2
+pyzmq==2.2.0
+wsgiref==0.1.2
