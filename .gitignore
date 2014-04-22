@@ -2,3 +2,5 @@
 bootstrap.sh
 Vagrantfile
 .vagrant/*
+local_settings.py
+*.pyc
